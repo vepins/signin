@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DDD;
+  background-image: 
+     url('https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-0.3.5&s=34300209da51e1540df61785446ef479&auto=format&fit=crop&w=1950&q=80'),
+     ;
+   background-size: cover;
+  background-position: center;
+  color: #222;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+#login-box {
+  position: relative;
+  margin: 10% auto;
+  background-color: #FFF;
+  width: 600px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4); /* NOTE: the 'a' is alpha - deals with opacity */
+}
+
+.left, .right { /* NOTE: just use a comma to do multiple classes or ids */
+  position: absolute;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  top: 4em;
+}
+
+.left {
+  left: 0;
+
+
+}
+
+.right {
+  right: 0;
+  border-radius: 2px;
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  
+}
+
+.heading {
+  margin: 20px 20px 20px 20px;
+  padding-top: 5%;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+}
+
+.sign-up input {
+  border: none;
+  border-bottom: 1px solid #AAA;
+  display: block; /* NOTE: to be sure they are inline and don't end up next to each other */
+  margin-bottom: 20px;
+  padding: 4px;
+}
+
+.sign-up-button {
+  margin: 5px auto;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background-color: #16A085;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.8s ease;
+}
+.sign-up-button:active {
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.create-acct-button {
+  margin: 5px auto;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(177, 197, 193);
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.create-acct-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.8s ease;
+}
+.create-acct-button:active {
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sign-up input:focus {
+  border-bottom: 2px solid #16A085;
+  color: #16A085;
+  transition: 0.4s ease;
+}
+
+*:focus {
+  outline: none;
+}
+
+.loginwidth {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: #FFF;
+  text-align:center;
+}
+.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+}
+.social-signin:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.8s ease;
+}
+
+.social-signin:active {
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.facebook {
+  background-color: #32508E;
+}
+
+.google {
+  background-color: #DD4B39;
+}
+
+.twitter {
+  background-color: #55ACEE;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}

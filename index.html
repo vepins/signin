@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Signin Form</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div id="login-box"> <!-- NOTE: will make this relative in CSS -->
+      <h1 class="heading">Sign In</h1>
+      <div class="left"> <!-- NOTE: will make this absolute in CSS -->
+          
+            <form class="sign-up" action="index.html" method="post"> <!-- NOTE: it's a 'post' bc sending info -->
+            <!-- <input type="text" name="username" placeholder="Username"/> -->
+            <input type="email" name="email" placeholder="Email"/>
+            <input type="password" name="password" placeholder="Password"/>
+            <!-- <input type="text" name="password2" placeholder="Retype Password"/> -->
+            <button class="sign-up-button" type="submit">Sign In</button>
+            <button class="create-acct-button" type="submit">Create Account</button>
+          </form>
+        </div>
+
+        <div class="right">
+           
+            <!-- <form class="sign-up" action="index.html" method="post">
+            <input type="text" name="username" placeholder="Username"/>
+            <input type="password" name="password" placeholder="Password"/> -->
+            <button class="social-signin facebook">Log in with Facebook</button>
+            <button class="social-signin google">Log in with Google+</button>
+            <button class="social-signin twitter">Log in with Twitter</button>
+            </form>
+        </div>
+        <div class="or">
+          OR
+        </div>
+    </div>
+  </body>
+</html>
